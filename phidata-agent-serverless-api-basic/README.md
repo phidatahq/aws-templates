@@ -6,7 +6,10 @@
 * AWS Lambda to run the Phidata Agent
 * AWS API Gateway to expose the API
 
-![Tech Stack](./assets/phidata-agent-serverless-basic-api.png)
+<img
+  src="https://github.com/phidatahq/aws-templates/blob/main/assets/phidata-agent-serverless-basic-api.png"
+  style="border-radius: 8px;"
+/>
 
 ## Prerequisites
 
