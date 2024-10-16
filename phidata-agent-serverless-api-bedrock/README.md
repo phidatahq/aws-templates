@@ -21,7 +21,7 @@
 * [Install Python 3.10+](https://www.python.org/downloads/)
 * [Install AWS CLI](https://aws.amazon.com/cli/)
 * [Authenticate AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
-* [CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
+* [Install CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
 
 ## Steps
 
