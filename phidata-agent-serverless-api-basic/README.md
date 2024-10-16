@@ -1,8 +1,10 @@
 # Phidata Agent Serverless API Basic
 
-This is a basic example of how to use the Phidata Agent with a serverless API.
-
-This template will deploy a serverless API that will allow you to interact with the Phidata Agent.
+* A basic serverless API for interacting with the Phidata Agent
+* The conversation gets stored in a DynamoDB table
+* AWS Secrets Manager to store the OpenAI API Key
+* AWS Lambda to run the Phidata Agent
+* AWS API Gateway to expose the API
 
 ## Prerequisites
 
