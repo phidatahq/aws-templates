@@ -19,7 +19,7 @@
 * [Install AWS CLI](https://aws.amazon.com/cli/)
 * [Authenticate AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 * [OpenAI API Key](https://platform.openai.com/api-keys)
-* [CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
+* [Install CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
 
 ## Steps
 
