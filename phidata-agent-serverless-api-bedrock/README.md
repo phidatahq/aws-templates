@@ -18,9 +18,9 @@ This template will deploy a serverless API that will allow you to interact with 
 
 ## Steps
 
-1. Change directory to phidata-agent-serverless-api-basic
+1. Change directory to phidata-agent-serverless-api-bedrock
 ```
-cd phidata-agent-serverless-api-basic
+cd phidata-agent-serverless-api-bedrock
 ```
 
 2. Add .env file from .env-template and add your OpenAI API Key
@@ -58,10 +58,10 @@ cdk destroy
 
 1. Get the API URL from the output of the cdk deploy command
 ```
-PhidataAgentServerlessApiBasicStack.HttpAPIUrl = https://1djpu9.execute-api.us-east-1.amazonaws.com/
+PhidataBedrockAgentServerlessApiStack.HttpAPIUrl = https://1djpu9.execute-api.us-east-1.amazonaws.com/
 ```
 
-2. Change directory to phidata-agent-serverless-api-basic/test
+2. Change directory to phidata-agent-serverless-api-bedrock/test
 ```
 cd test
 ```
