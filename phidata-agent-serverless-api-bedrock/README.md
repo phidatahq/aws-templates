@@ -1,6 +1,6 @@
 # Phidata Bedrock Agent Serverless API
 
-This is a basic example of how to use the Phidata Agent with a serverless API.
+This is a basic example of how to use the Phidata Bedrock Agent with a serverless API.
 
 This template will deploy a serverless API that will allow you to interact with the Phidata Agent.
 
