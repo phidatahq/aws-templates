@@ -1,0 +1,6 @@
+openai
+boto3
+s3fs
+httpx
+phidata
+pinecone
