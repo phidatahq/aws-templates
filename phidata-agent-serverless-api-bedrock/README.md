@@ -6,6 +6,11 @@
 - AWS Lambda to run the Phidata Agent
 - AWS API Gateway to expose the API
 
+<img
+  src="https://github.com/phidatahq/aws-templates/blob/main/assets/phidata-agent-serverless-bedrock-api.png"
+  style="border-radius: 8px;"
+/>
+
 ## Prerequisites
 
 * [AWS Account](https://aws.amazon.com/free/)
