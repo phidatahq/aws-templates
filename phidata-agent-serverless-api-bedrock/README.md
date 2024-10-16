@@ -1,4 +1,4 @@
-# Phidata Agent Serverless API Basic
+# Phidata Bedrock Agent Serverless API
 
 This is a basic example of how to use the Phidata Agent with a serverless API.
 
