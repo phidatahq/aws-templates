@@ -1,8 +1,10 @@
 # Phidata Bedrock Agent Serverless API
 
-This is a basic example of how to use the Phidata Bedrock Agent with a serverless API.
-
-This template will deploy a serverless API that will allow you to interact with the Phidata Agent.
+- A basic serverless API for interacting with the Phidata Agent using AWS Bedrock
+- The conversation gets stored in a DynamoDB table
+- AWS Bedrock as the LLM Provider
+- AWS Lambda to run the Phidata Agent
+- AWS API Gateway to expose the API
 
 ## Prerequisites
 
