@@ -6,6 +6,11 @@
 - AWS Lambda to run the Phidata Agent
 - AWS API Gateway to expose the API
 
+<img
+  src="https://github.com/phidatahq/aws-templates/blob/main/assets/phidata-agent-serverless-bedrock-api.png"
+  style="border-radius: 8px;"
+/>
+
 ## Prerequisites
 
 * [AWS Account](https://aws.amazon.com/free/)
@@ -16,7 +21,7 @@
 * [Install Python 3.10+](https://www.python.org/downloads/)
 * [Install AWS CLI](https://aws.amazon.com/cli/)
 * [Authenticate AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
-* [CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
+* [Install CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
 
 ## Steps
 
