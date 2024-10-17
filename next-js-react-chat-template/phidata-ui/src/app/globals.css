@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+ 
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+ 
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+ 
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+ 
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+ 
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+ 
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(90deg,#327fb9,rgba(108, 162, 243, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+
+.button:hover {
+    background-color: theme('colors.blue.700'); /* Darken the button on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px theme('colors.blue.300'); /* Focus ring around the button */
+}
+
+/* Link hover effects */
+a:hover {
+    text-decoration: underline;
+    color: theme('colors.blue.600');
+}
+
+@layer base {
+    :root {
+      --sign-out-bg: var(--destructive);  /* Using the destructive color for a sign-out action */
+      --sign-out-bg-hover: var(--destructive, #C53030);  /* Slightly darker for hover state */
+      --sign-out-text: var(--destructive-foreground);
+      --sign-out-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      --sign-out-shadow-hover: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+  
+    .dark {
+      --sign-out-bg: var(--destructive);
+      --sign-out-bg-hover: var(--destructive, #C53030);
+      --sign-out-text: var(--destructive-foreground);
+      --sign-out-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+      --sign-out-shadow-hover: 0 4px 6px rgba(255, 255, 255, 0.2);
+    }
+  }
+  
+
+.sign-out-btn {
+    @apply py-2 px-4 font-bold rounded transition duration-300 ease-in-out;
+    background-color: var(--sign-out-bg);
+    color: var(--sign-out-text);
+    box-shadow: var(--sign-out-shadow);
+  }
+  
+  .sign-out-btn:hover, .sign-out-btn:focus {
+    background-color: var(--sign-out-bg-hover);
+    box-shadow: var(--sign-out-shadow-hover);
+    @apply ring-2 ring-red-500 ring-opacity-50;
+  }
