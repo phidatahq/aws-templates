@@ -9,3 +9,5 @@ A collection of AWS templates for deploying AI Agents
 - [Phidata Bedrock Claude 3.5 Sonnet Agent Serverless API](./phidata-agent-serverless-api-bedrock/README.md)
 
 - [Phidata Bedrock Claude 3.5 Sonnet Agent Serverless API with Memory](./phidata-agent-serverless-api-bedrock-memory/README.md)
+
+- [Phidata Next JS React Chat Template](./next-js-react-chat-template/phidata-ui/README.md)
