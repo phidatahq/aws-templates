@@ -1,4 +1,4 @@
-# Phidata Bedrock Agent Serverless API with Memory
+# Phidata Bedrock Serverless Agent with Memory
 
 - A basic serverless API for interacting with the Phidata Agent using AWS Bedrock
 - Question and answer gets stored in a DynamoDB table
