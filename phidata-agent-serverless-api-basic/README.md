@@ -19,7 +19,7 @@
 * [Install AWS CLI](https://aws.amazon.com/cli/)
 * [Authenticate AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 * [OpenAI API Key](https://platform.openai.com/api-keys)
-* [CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
+* [Install CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html)
 
 ## Steps
 
@@ -71,12 +71,15 @@ PhidataAgentServerlessApiBasicStack.HttpAPIUrl = https://1djpu9.execute-api.us-e
 cd test
 ```
 
-3. Create a .env file from .env-template
+3. Create a test/.env file from test/.env-template
 ```
 cp .env-template .env
 ```
 
-4. Paste the URL into the .env file
+4. Paste the URL into the test/.env file
+```
+AWS_API_GATEWAY_URL=https://1djpu9.execute-api.us-east-1.amazonaws.com
+```
 
 5. Create a virtual environment and install dependencies
 ```

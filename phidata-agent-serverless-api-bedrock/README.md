@@ -68,12 +68,15 @@ PhidataBedrockAgentServerlessApiStack.HttpAPIUrl = https://1djpu9.execute-api.us
 cd test
 ```
 
-3. Create a .env file from .env-template
+3. Create a test/.env file from test/.env-template
 ```
 cp .env-template .env
 ```
 
-4. Paste the URL into the .env file
+4. Paste the URL into the test/.env file
+```
+AWS_API_GATEWAY_URL=https://1djpu9.execute-api.us-east-1.amazonaws.com
+```
 
 5. Create a virtual environment and install dependencies
 ```
